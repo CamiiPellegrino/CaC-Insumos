@@ -1,0 +1,106 @@
+/*grid*/
+body {
+    display: grid;
+    grid-gap: 1em;
+    
+}
+
+/*propiedades*/
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+ 
+.header{
+    background-color: rgb(0, 0, 0);
+    padding: 7em 2em;
+    color: rgb(255, 250, 244);
+    text-align: center;
+}
+    #h3Header{
+        color: rgb(162, 162, 162);
+    }
+.aside{
+    background-color: rgb(233, 195, 195);
+    padding: 2em;
+    color: rgb(0, 0, 0);
+    top:0px;
+    position: sticky;/*googlear porque hace falta poner top right left o __ para q ande el position: sticky*/
+    height: 3em;
+    display: flex;  /*googlear porque hace falta display: flex para q ande el justify content: space-between*/
+    justify-content: space-between;
+    opacity: .9;
+}
+.section{
+    background-color: rgb(255, 250, 244);
+    padding: 2em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+ 
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    padding: 2em;
+    color: rgb(255, 250, 244);
+}
+
+.divProductos{
+    padding: 2em;
+    border-style: solid;
+    border-color: black;
+    border-radius: .5em;
+    margin: 1.5em;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+
+}
+.imgDivProductos{
+    display: block;
+    height: 10em;
+
+}
+
+.listaProductosCarrito{
+    background-color: rgb(233, 195, 195);
+
+}
+
+
+
+.ulParaProductos{
+    padding:1.5em 3em;
+    display: none;
+
+}
+/*
+.onmouseover{
+    background-color:  rgba(255, 250, 244,.8);;
+    padding: 1em 3em;
+    display: block; 
+
+    }
+
+.onmouseout{
+    padding: 1.5em 3em;
+    display: none;
+
+}*/
+
+.contenedorCarrito{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#btnVerCarrito{
+    display: inline-block;
+
+}
+
+#cantProd{
+    display: inline-block;
+    border-radius: .5em;
+    background-color: black;
+    color: antiquewhite;
+    padding: .3em;
+    
+}
